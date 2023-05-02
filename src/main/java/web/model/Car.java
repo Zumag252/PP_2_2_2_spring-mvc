@@ -41,13 +41,4 @@ public class Car {
         this.yearOfManufacture = yearOfManufacture;
     }
 
-    public static List<Car> getCars() {
-        List<Car> result = new ArrayList<>();
-        result.add(new Car("BMW", "X5", 2010));
-        result.add(new Car("Mitsubishi", "Pajero", 2008));
-        result.add(new Car("Ford", "Focus", 2000));
-        result.add(new Car("Kia", "Rio", 2003));
-        result.add(new Car("Skoda", "Octavia", 2020));
-        return result;
-    }
 }
